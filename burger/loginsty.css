@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+
+}
+
+.container {
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+}
+
+#login-box{
+    overflow: auto;
+    overflow-wrap: break-word;
+    height: 70%; 
+    width: 40%;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 6px;
+    border: 5px solid rgb(99, 38, 3);
+    justify-content: center;
+}
+#login-box h2{
+    text-align: center;
+}
+#login-box input {
+    width: 40%; 
+    height: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#login-box h1{
+    font-size: 50px;
+}
+
+
+#login-box button{
+    background-color: rgb(150, 150, 224);
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 10px;
+    height: 10%;
+    width: 41%;
+    box-sizing: border-box;
+
+}

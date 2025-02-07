@@ -1,0 +1,344 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.container-fluid {
+    height: 100vh;
+}
+
+.container-fluid .row {
+    height: 100%;
+}
+
+.slideshow {
+    height: 30vh;
+    width: auto;
+    margin: 30px;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    margin: 10px 30px;
+    --bs-link-color: #000000;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #000000;
+}
+
+.nav-underline .nav-link:focus, .nav-underline .nav-link:hover {
+    border-bottom-color: #ffc257;
+}
+
+#menu {
+    margin: 0px 30px;
+    width: auto;
+    height: 54vh;
+    background-color: ghostwhite;
+}
+
+#menu .col {
+    height: 40vh;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+img {
+    object-fit: cover;
+    clip-path: inset(0);
+    width: 100%;
+    height: 70%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    height: 20%;
+}
+
+#menu .col button {
+    height: 10%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #eba01f;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#menu .col button:hover{
+    background-color: #cb8b1d;
+}
+
+#content #menu {
+    overflow-y: scroll;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    height: 18%;
+}
+
+.desc, .price {
+    font-size: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+h3 {
+    margin: 30px 0px;
+    margin-left: 30px;
+    color: grey;
+}
+
+#bread .btn img, #meat .btn img, #topping .btn img, #vegetable .btn img, #sauce .btn img{
+    height: 60px;
+    width: 60px;
+}
+
+#orders #list-order {
+    margin: 30px;
+    width: auto;
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+#orders #list-order .row {
+    margin-bottom: 10px;
+    width: auto;
+    height: 15vh;
+}
+
+#orders #total {
+    margin: 30px;
+    width: auto;
+    background-color: rgb(131, 131, 134);
+    height: 15vh;
+    overflow-y: scroll;
+}
+
+.line {
+    height: 0.25rem;
+    background-color: black;
+    margin: 10px 30px;
+    width: auto;
+}
+
+#orders .d-grid .btn {
+    width: auto;
+    margin: 30px;
+    height: 8vh;
+}
+
+.modal-body{
+    padding: 10px 30px;
+}
+
+
+
+#list-order .img-order{
+    width: 50%;
+    height: 125px;
+    display: flex;
+
+}
+
+
+#text-order{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+#list-order{
+    display: block;
+}
+
+#del-order{
+    align-content: center;
+    width: 100%;
+    padding-left: 5px;
+    height: 20px;
+}
+
+#order-1{
+    display: flex;
+}
+
+#del-but{
+    border-radius: 7px;
+    border: none;
+    background-color: #f7ac2c;
+    align-content: center;
+    width: 100%;
+    height: 30px;
+}
+
+#block-for-text{
+    width: 50%;
+}
+
+table{
+
+    width: 100%;
+}
+table,td,tr{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+.pop{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position : fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popCon{
+    height: 80%;
+    width: 90%;
+    padding: 20px;
+    background: rgb(248, 228, 190);
+    border-radius: 5px;
+    position: relative;
+}
+
+#bt-total .can{
+    height: 80%;
+    font-weight: bold; ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(207, 69, 69);
+    position :static;
+    margin-top: 3px;
+}
+#bt-total .con{
+    height: 90%;
+    font-weight: bold; ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(69, 106, 207);
+    position :static;
+    margin-right: 13px;
+
+}
+
+.clr-bt{
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+#clear{
+    font-weight: bold; 
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: none;
+    background-color: #ee9700;
+    align-content: center;
+
+}
+.pop-bg{
+    width: 100%;
+    height: 93%;
+    background-color: wheat;
+}
+
+.img-sub{
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+.order-sub{
+    border-radius: 7px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+}
+#sub-order{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+    width: auto;
+    height: 60%;
+}
+
+#block-sub-text{
+    display: flex;
+}
+
+#tbs{
+    table-layout:fixed;
+    width: 100%;
+    height: auto;
+}
+
+#tbs td{
+    border-left: 1px solid black;
+}
+
+#total-sub{
+    overflow-y: scroll;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: auto;
+    height: 32%;
+}
+
+h5{
+    display: inline;
+}
+
+#list-order2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#sum-sub{
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+#tt-sub{
+    padding-left: 2% ;
+    width: 20%;
+    height: auto;
+}
+td, th {
+    overflow-wrap: break-word; /* สำหรับการแบ่งคำเพื่อป้องกันการทะลุคอลัม */
+}
+#bt-total{
+    padding-top: 3px;
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 2px;
+    width: 100%;
+    height: 8%;
+}
+#totalprice{
+    position: fixed;
+}

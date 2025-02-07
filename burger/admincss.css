@@ -1,0 +1,120 @@
+body{
+    width: 98vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(16, 22, 73);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.namenav{
+    color: white;
+    display: flex;
+    padding-left: 20px;
+}
+.namenav2{
+    display: flex;
+    color: rgb(189, 192, 196);
+}
+ul{
+    padding-top: 10px;
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    transition: 200ms;
+}
+#logout-bot{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    transition: 200ms;
+}
+#logout-bot:hover{
+    background: rgb(207, 64, 64);
+}
+ul li a:hover{
+    background: rgb(127, 133, 185);
+}
+td, th {
+    font-size: 20px;
+    overflow-wrap: break-word; /* สำหรับการแบ่งคำเพื่อป้องกันการทะลุคอลัม */
+}
+tr{
+    border: 1px solid black;
+    height: 40px;
+}
+
+table,td,tr,th{
+    text-align: center;
+    border-collapse: collapse;
+}
+.edt{
+    color: red;
+}
+input{
+    width: 40px;
+}
+
+thead th{
+    justify-content: end;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+#add-ing {
+    margin: 20px;
+    table-layout:fixed;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+#add-ing input[type=text]{
+    width: 200px;
+}
+#add-ing input[type=number]{
+    width: 50px;
+}
+#add-ing th,
+#add-ing td {
+    font-size: 30px;
+}
+#add-ing button{
+    width: 20%;
+    height: 30px;
+
+}
+
+.cq{
+    height: 40px;
+
+}
+#clrq{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:hover{
+    background-color: rgb(207, 73, 73);
+}
+#myTable3 {
+    table-layout: fixed;
+    width: 100%;
+}
+#myTable3 th, table td {
+    width: 25%
+}

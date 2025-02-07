@@ -1,0 +1,75 @@
+body{
+    background-color: antiquewhite;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    
+}
+img{
+    width: 100px;
+    height: 20%;
+    margin: 10px;
+}
+.order-sub{
+    border-radius: 7px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+}
+#sub-order{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+    width: auto;
+    height: 60%;
+}
+#tbs{
+    table-layout:fixed;
+    width: 100%;
+    height: auto;
+}
+#tbs td{
+    border-left: 1px solid black;
+}
+
+td, th {
+    overflow-wrap: break-word; /* สำหรับการแบ่งคำเพื่อป้องกันการทะลุคอลัม */
+}
+
+table{
+
+    width: 100%;
+}
+table,td,tr{
+    text-align: center;
+    border-collapse: collapse;
+}
+h1{
+    /* margin-bottom: -70px; */
+    text-align: center;
+}
+
+#tt{
+    margin-bottom: -70px;
+}
+
+
+.container img{
+    
+    width: 100px;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+  }
